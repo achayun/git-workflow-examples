@@ -26,3 +26,9 @@ Two major approaches:
 ## Automatic Rebase
 
 Either via a remote action or git hook, every push should automatically rebase from its parent (unless there are some temporary limitations). This pushes the error down the error down to the developer, making sure it's not propagated upstream.
+
+## TODO
+
+1. Convert bootstrap to docker-compose with ssh inter network
+
+
